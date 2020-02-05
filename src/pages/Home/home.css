@@ -1,0 +1,38 @@
+  .pointer {
+    cursor: pointer;
+  }
+  .width100 {
+    width: 100%;
+  }
+  #fp-carousel {
+      position: relative;
+      overflow: hidden;
+  }
+  #fp-carousel .item {
+      position: relative;
+      display: none;
+  }
+  #fp-carousel .item.active {
+      display: block;
+      left: 0;
+  }
+  .carousel-indicators{
+      /* position: unset !important; */
+  }
+  .carousel-indicators .active{
+    background-color: #dc3545;
+  }
+  .carousel-indicators li {
+      border-radius: 100%;
+      width: 12px !important;
+      height: 12px !important;      
+  }
+  .carousel-content{
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+  }
+  .about-5x{
+      color: #555;
+  }  
+  @media (min-width:320px) and (max-width:769px){}

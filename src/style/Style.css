@@ -15,7 +15,7 @@ ul li a:hover{
 
 /* content */
 .content{
-    height: 100vh;
+    /* margin-top: 68px; */
 }
 
 /* footer */
@@ -48,6 +48,15 @@ footer{
     font-size: 12px;
 }
 
+/* line */
+.line{
+    border: solid;
+    border-color: #dc3545;
+    border-bottom: 0.5px;
+    width: 76px;
+    display: flex;
+    margin-top: 15px;
+}
 
 /* md size */
 @media (min-width:576px) and (max-width:769px){
