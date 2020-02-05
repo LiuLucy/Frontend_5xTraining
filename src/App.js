@@ -45,12 +45,12 @@ function App() {
       
       <div className="content"></div>
 
-      <footer className="py-3">
+      <footer className="py-5">
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-3">
               <a className="press-img ">
-                <img className="mb-3" src={pressImg}/>
+                <img width="100%" className="mb-3" src={pressImg}/>
               </a>
               <a className="press-img">
                 <img className="mr-2" src={cakeresume} width="70%"/>
@@ -78,8 +78,8 @@ function App() {
                         <strong className="phone-number">02-2331-5247</strong><br />
                         <small>Mon - Fri / 09:30 - 22:00</small><br />
                         <a><i className="mr-3 ml-2 mt-3 media-icon fab fa-facebook-f"></i></a>
-                        <a><i className="mx-3 mt-3 media-icon fab fa-twitter"></i></a>
-                        <a><i className="mx-3 mt-3 media-icon fab fa-github"></i></a>
+                        <a><i className="mx-2 mt-3 media-icon fab fa-twitter"></i></a>
+                        <a><i className="mx-2 mt-3 media-icon fab fa-github"></i></a>
                       </div>
                       <div className="col-12 col-md-8 col-xl-9 mt-3 mt-md-0">
                         <p>有任何問題？</p>
