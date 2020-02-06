@@ -12,6 +12,15 @@ ul li a:hover{
     font-size: 14px;
     font-weight: 800;
 }
+.App-header{
+    margin-top: 64px;
+}
+.navbar{
+    z-index: 100;
+    left:0;
+    top:0;
+    position: fixed !important;
+}
 
 /* content */
 .content{
@@ -77,6 +86,11 @@ footer{
     padding: 3px 5px; 
     border-radius: 10%;    
     font-weight: 900;
+}
+
+/* text align */
+.text-start{
+    text-align: start;
 }
 
 /* md size */

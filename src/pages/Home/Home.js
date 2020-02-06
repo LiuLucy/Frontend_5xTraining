@@ -209,11 +209,11 @@ function Home() {
       {/* class-recommend */}
       <div className="class-recommend">
         <div className="title text-center py-5">
-            <h4>熱門網頁設計課程推薦</h4>
-            <div className="justify-content-center d-flex">
-              <span className="line"></span>
-            </div>
+          <h4>熱門網頁設計課程推薦</h4>
+          <div className="justify-content-center d-flex">
+            <span className="line"></span>
           </div>
+        </div>
       </div>
       <div className="container">
         <div className="row">
@@ -279,7 +279,169 @@ function Home() {
         <div className="more-class text-center my-5">
           <button>看更多網頁課程</button>
         </div>
-      </div>      
+      </div>     
+      {/* class-recommend */}
+
+      {/* user-recommend */}
+      <div className="block-dark">
+        <div className="title text-center py-5">
+          <h4>網頁課程推薦</h4>
+          <div className="justify-content-center d-flex">
+            <span className="line"></span>
+          </div>
+        </div>
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators slide-icon">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/hana-4ae009cb.jpg" alt="First slide" />                
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>慕凡和龍哥是業界數一數二的 Ruby 大師，他們不光是底子深厚，也很懂得引導、訓練學習路上遇到挫折的 Ruby/Rails 學子。很慶幸有他們的協助讓我進入紅寶石的美妙世界。</p>
+                    <h4>Hana Chang</h4>
+                    <h6>Co-Founder and CEO of BountyHunter</h6>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/victor-3ec52916.jpg" alt="Second slide" />
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>Programmer 最有價值的是經驗值，「五倍紅寶石」的導師都是社群內數一數二的資深 Rubyist，由他們來帶領學員一探 Ruby 世界的神奇之處，實在是最佳選擇。</p>
+                    <h4>Victor Lam</h4>
+                    <h6>連續創業家，自由工作者</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/jason-e7e95cad.jpg" alt="Third slide" />
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>Eddie and his team are of the most dedicated Ruby evangelists I have ever come across. With their passion and professionalism, Ruby learners will leapfrog in their progress.</p>
+                    <h4>Jason Hs</h4>
+                    <h6>founder of The Big Questions & TEDxTaipei</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/felix-d1d4db69.jpg" alt="Third slide" />
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>還在尋找專業的 Ruby/Rails 師資嗎？別懷疑了，台灣最頂尖的 Rubyist 盡在「五倍紅寶石」！</p>
+                    <h4>Felix Lin</h4>
+                    <h6>dappei.com 「搭配」網站創辦人</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/johnsie-7322ca81.jpg" alt="Third slide" />
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>選擇程式語言很重要，但選擇優秀的導師更重要！能跟擁有多年 Ruby/Rails 實戰經驗、活躍於社群的頂尖 Rubyist 學習，將一窺程式開發殿堂之藝術！我堅信：專業事讓專業的來，而專業的「五倍紅寶石」是寶藏，就等大家來挖掘。</p>
+                    <h4>John Sie</h4>
+                    <h6>Accuvally Inc.共同創辦人暨營運長</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/benlin-54e253f4.jpg" alt="Third slide" />
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>「五倍紅寶石」的導師們都是業界經驗豐富的實戰高手，提供的課程及咨詢絕對能讓你大幅省去自行摸索的時間。</p>
+                    <h4>Ben Li</h4>
+                    <h6>連續創業家，自由工作者</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>         
+        </div>
+      </div>
+      {/*  */}
+
+      {/*  */}
+      <div className="works mb-5">
+        <div className="title text-center py-5">
+          <h4>案例作品 Showcase</h4>
+          <div className="justify-content-center d-flex">
+            <span className="line"></span>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4 col-12 ">
+              <div class="card h-100">
+                <img class="card-img-top" src="https://5xruby.tw/assets/images/showcases/space_next_door-4dfdfeb6.png" alt="Card image cap" />
+                <div class="card-body">
+                  <h6 className="card-title">SpaceNextDoor</h6>
+                  <p class="card-text">Space Next Door is inspired by the sharing economy in which we hope to encourage people to put up their unused space so that users looking for personal or business storage space have better options, closer to where they need it. We are striving to build a trusted community marketplace for you to list, discover and book the nearest and best space at affordable prices.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-12">
+              <div class="card h-100">
+                <img class="card-img-top" src="https://5xruby.tw/assets/images/showcases/shopmatic_go-f7b86d46.png" alt="Card image cap" />
+                <div class="card-body">
+                  <h6 className="card-title">Shopmatic Go app</h6>                
+                  <p class="card-text">Shopmatic Go is an exciting online platform where you can create a unique and comprehensive online store for your business, in a matter of minutes.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-12">
+              <div class="card h-100">
+                <img class="card-img-top" src="https://5xruby.tw/assets/images/showcases/shopmatic-92ff9dcf.jpg" alt="Card image cap" />
+                <div class="card-body">
+                  <h6 className="card-title">跨境電子商務 Shopmatic</h6>                
+                  <p class="card-text">Shopmatic manages the entire ecosystem for anyone wanting to sell online. We go the extra mile to ensure that we help you in every step of the process to grow your business online - from developing your own unique webstore, to listing you on marketplaces and social channels, to providing you insights on how to sell online.</p>
+                </div>
+              </div>
+            </div>
+            <div className="px-3 w-100 d-flex justify-content-end mt-4">
+              <span className="more">..更多案例</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+
+      {/*  */}
+      <div className="know-about-us">
+        <div className="title text-center py-5">
+          <h4>想更瞭解我們嗎？</h4>
+          <div className="justify-content-center d-flex">
+            <p className="text">您可以看看<span>常見問題</span>或者直接<span>線上洽詢</span>，會有親切的客服人員回答您的問題，<br></br>也可以透過社群網站隨時關注我們的動態。</p>          
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-1">
+              <img src="https://5xruby.tw/assets/images/index/icon/icon-fb-2f24e7a0.png"></img>
+            </div>
+            <div className="col-1">
+              <img src="https://5xruby.tw/assets/images/index/icon/icon-twitter-89f8d087.png"></img>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
