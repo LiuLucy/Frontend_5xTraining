@@ -82,7 +82,17 @@
   .user-recommend h4{
       color: #dc3545;
   }
-
+  .works p{
+    color: #666;
+    font-size: 14px;
+  }
+  .works .more, .know-about-us .text span{
+    color: #dc3545;
+  }
+  .know-about-us .text{
+    line-height: 38px;
+    font-size: 18px;
+  }
   @media (min-width:320px) and (max-width:769px){
     .carousel-caption{
         bottom: 8% !important;      

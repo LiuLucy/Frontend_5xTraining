@@ -376,9 +376,71 @@ function Home() {
             </div>
           </div>         
         </div>
-        {/*  */}
+      </div>
+      {/*  */}
 
+      {/*  */}
+      <div className="works mb-5">
+        <div className="title text-center py-5">
+          <h4>案例作品 Showcase</h4>
+          <div className="justify-content-center d-flex">
+            <span className="line"></span>
+          </div>
+        </div>
 
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4 col-12 ">
+              <div class="card h-100">
+                <img class="card-img-top" src="https://5xruby.tw/assets/images/showcases/space_next_door-4dfdfeb6.png" alt="Card image cap" />
+                <div class="card-body">
+                  <h6 className="card-title">SpaceNextDoor</h6>
+                  <p class="card-text">Space Next Door is inspired by the sharing economy in which we hope to encourage people to put up their unused space so that users looking for personal or business storage space have better options, closer to where they need it. We are striving to build a trusted community marketplace for you to list, discover and book the nearest and best space at affordable prices.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-12">
+              <div class="card h-100">
+                <img class="card-img-top" src="https://5xruby.tw/assets/images/showcases/shopmatic_go-f7b86d46.png" alt="Card image cap" />
+                <div class="card-body">
+                  <h6 className="card-title">Shopmatic Go app</h6>                
+                  <p class="card-text">Shopmatic Go is an exciting online platform where you can create a unique and comprehensive online store for your business, in a matter of minutes.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-12">
+              <div class="card h-100">
+                <img class="card-img-top" src="https://5xruby.tw/assets/images/showcases/shopmatic-92ff9dcf.jpg" alt="Card image cap" />
+                <div class="card-body">
+                  <h6 className="card-title">跨境電子商務 Shopmatic</h6>                
+                  <p class="card-text">Shopmatic manages the entire ecosystem for anyone wanting to sell online. We go the extra mile to ensure that we help you in every step of the process to grow your business online - from developing your own unique webstore, to listing you on marketplaces and social channels, to providing you insights on how to sell online.</p>
+                </div>
+              </div>
+            </div>
+            <div className="px-3 w-100 d-flex justify-content-end mt-4">
+              <span className="more">..更多案例</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+
+      {/*  */}
+      <div className="know-about-us">
+        <div className="title text-center py-5">
+          <h4>想更瞭解我們嗎？</h4>
+          <div className="justify-content-center d-flex">
+            <p className="text">您可以看看<span>常見問題</span>或者直接<span>線上洽詢</span>，會有親切的客服人員回答您的問題，<br></br>也可以透過社群網站隨時關注我們的動態。</p>          
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-1">
+              <img src="https://5xruby.tw/assets/images/index/icon/icon-fb-2f24e7a0.png"></img>
+            </div>
+            <div className="col-1">
+              <img src="https://5xruby.tw/assets/images/index/icon/icon-twitter-89f8d087.png"></img>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
