@@ -157,8 +157,8 @@ function Home() {
       {/* fp-carousel */}
 
       {/* about */}
-      <div className="about-5x">
-        <div className="title text-center mt-5">
+      <div className="about-5x block-dark py-5">
+        <div className="title text-center">
           <h4>關於五倍紅寶石 About 5xRuby</h4>
           <div className="justify-content-center d-flex">
             <span className="line"></span>
@@ -217,7 +217,82 @@ function Home() {
           </div>  
         </div>  
       </div>
-      {/* about */}      
+      {/* about */}     
+
+      {/* class-recommend */}
+      <div className="class-recommend">
+        <div className="title text-center py-5">
+            <h4>熱門網頁設計課程推薦</h4>
+            <div className="justify-content-center d-flex">
+              <span className="line"></span>
+            </div>
+          </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-4 mb-3 mb-lg-0">
+            <div className="card">
+              <img className="card-img-top" src="https://5xruby.tw/assets/images/talks/cover/functional-09be0f61.jpg" alt="Card image cap" />
+              <div className="card-body pt-2">
+                <div className="mb-2">
+                  <span className="bage bage-warning mr-1">新開課</span>
+                  <span className="bage bage-danger">開放報名中</span>
+                </div>
+                <div className="class-detail">  
+                  <h5 className="card-title mb-4">工作上用得到的函數式程式設計：從觀念到實務 - 假日班</h5>
+                  <span>講師：蘇泰安(Taian Su)</span>
+                  <hr className="mb-3 mt-2"></hr>
+                  <div className="input-group">
+                    <span>開課時間</span>
+                    <span className="class-time-bage ml-3 px-2 py-1">2月｜假日班</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 mb-3 mb-lg-0">
+            <div className="card">
+              <img className="card-img-top" src="https://5xruby.tw/assets/images/talks/cover/rwd-99b9e59b.jpg" alt="Card image cap" />
+              <div className="card-body pt-2">
+                <div className="mb-2">
+                  <span className="bage bage-danger">開放報名中</span>
+                </div>
+                <div className="class-detail">  
+                  <h5 className="card-title mb-4">客製化進階 RWD 手機版網頁設計班 - 假日班</h5>
+                  <span>講師：李建杭(Amos Lee)</span>                
+                  <hr className="mb-3 mt-2"></hr>
+                  <div className="input-group">
+                    <span>開課時間</span>
+                    <span className="class-time-bage ml-3 px-2 py-1">3月｜假日班</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 mb-3 mb-lg-0">
+            <div className="card">
+              <img className="card-img-top" src="https://5xruby.tw/assets/images/talks/cover/vue-js-61eaa1c7.jpg" alt="Card image cap" />
+              <div className="card-body pt-2">            
+                <div className="mb-2">
+                  <span className="bage bage-danger">開放報名中</span>
+                </div>
+                <h5 className="card-title mb-4">Vue.js 與 Vuex 前端開發實戰課程 - 假日班</h5>
+                <div className="class-detail">                
+                  <span>講師：許國政(Kuro Hsu)</span>                
+                  <hr className="mb-3 mt-2"></hr>
+                  <div className="input-group">
+                    <span>開課時間</span>
+                    <span className="class-time-bage ml-3 px-2 py-1">3月｜假日班</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>      
+        </div>
+        <div className="more-class text-center my-5">
+          <button>看更多網頁課程</button>
+        </div>
+      </div>      
     </div>
   );
 }
