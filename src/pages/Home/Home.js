@@ -432,7 +432,7 @@ function Home() {
           <div className="justify-content-center d-flex">
             <p className="text">您可以看看<span>常見問題</span>或者直接<span>線上洽詢</span>，會有親切的客服人員回答您的問題，<br></br>也可以透過社群網站隨時關注我們的動態。</p>          
           </div>
-          <div className="row justify-content-center">
+          <div className="row justify-content-center mx-0">
             <div className="col-1">
               <img src="https://5xruby.tw/assets/images/index/icon/icon-fb-2f24e7a0.png"></img>
             </div>
