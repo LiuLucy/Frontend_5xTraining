@@ -5,7 +5,6 @@ import { image_link_sm , image_link_md , image_link_lg } from './../../enums.js'
 function Home() {
   const [imageLink, setImageLink] = useState(image_link_lg)
   useEffect(() => {
-    console.log("我是寬度",$(window).width())
     if($(window).width() <= 375){
       setImageLink(image_link_sm)
     } else if($(window).width() <= 376 && $(window).width() >= 768){
@@ -96,22 +95,10 @@ function Home() {
           carousel_play();
         }, 3000);
       });
-
-      fpCarousel.find('.left').bind('click', function () {
-        carousel_play('prev');
-      });
-      fpCarousel.find('.right').bind('click', function () {
-        carousel_play('next');
-      });
+     
       fpIndicator.click(function () {
-        var slideData = $(this).attr('data-slide-to');
-
-      fpCarousel.find('.item.active').animate({'left': -fpItem.width()},'fast').attr({'class': 'item width100 w-height'});
-      $(fpItem[slideData]).show().animate({'left': 0},'fast').attr({'class': 'item active width100 w-height'});
-
-      fpItem_index = slideData;
-      updateIndicator();
-    })
+       
+      })
   },[]);
   return (
     <div className="home-page h-100">
