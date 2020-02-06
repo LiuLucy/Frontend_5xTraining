@@ -209,11 +209,11 @@ function Home() {
       {/* class-recommend */}
       <div className="class-recommend">
         <div className="title text-center py-5">
-            <h4>熱門網頁設計課程推薦</h4>
-            <div className="justify-content-center d-flex">
-              <span className="line"></span>
-            </div>
+          <h4>熱門網頁設計課程推薦</h4>
+          <div className="justify-content-center d-flex">
+            <span className="line"></span>
           </div>
+        </div>
       </div>
       <div className="container">
         <div className="row">
@@ -279,7 +279,107 @@ function Home() {
         <div className="more-class text-center my-5">
           <button>看更多網頁課程</button>
         </div>
-      </div>      
+      </div>     
+      {/* class-recommend */}
+
+      {/* user-recommend */}
+      <div className="block-dark">
+        <div className="title text-center py-5">
+          <h4>網頁課程推薦</h4>
+          <div className="justify-content-center d-flex">
+            <span className="line"></span>
+          </div>
+        </div>
+        
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators slide-icon">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/hana-4ae009cb.jpg" alt="First slide" />                
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>慕凡和龍哥是業界數一數二的 Ruby 大師，他們不光是底子深厚，也很懂得引導、訓練學習路上遇到挫折的 Ruby/Rails 學子。很慶幸有他們的協助讓我進入紅寶石的美妙世界。</p>
+                    <h4>Hana Chang</h4>
+                    <h6>Co-Founder and CEO of BountyHunter</h6>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/victor-3ec52916.jpg" alt="Second slide" />
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>Programmer 最有價值的是經驗值，「五倍紅寶石」的導師都是社群內數一數二的資深 Rubyist，由他們來帶領學員一探 Ruby 世界的神奇之處，實在是最佳選擇。</p>
+                    <h4>Victor Lam</h4>
+                    <h6>連續創業家，自由工作者</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/jason-e7e95cad.jpg" alt="Third slide" />
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>Eddie and his team are of the most dedicated Ruby evangelists I have ever come across. With their passion and professionalism, Ruby learners will leapfrog in their progress.</p>
+                    <h4>Jason Hs</h4>
+                    <h6>founder of The Big Questions & TEDxTaipei</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/felix-d1d4db69.jpg" alt="Third slide" />
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>還在尋找專業的 Ruby/Rails 師資嗎？別懷疑了，台灣最頂尖的 Rubyist 盡在「五倍紅寶石」！</p>
+                    <h4>Felix Lin</h4>
+                    <h6>dappei.com 「搭配」網站創辦人</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/johnsie-7322ca81.jpg" alt="Third slide" />
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>選擇程式語言很重要，但選擇優秀的導師更重要！能跟擁有多年 Ruby/Rails 實戰經驗、活躍於社群的頂尖 Rubyist 學習，將一窺程式開發殿堂之藝術！我堅信：專業事讓專業的來，而專業的「五倍紅寶石」是寶藏，就等大家來挖掘。</p>
+                    <h4>John Sie</h4>
+                    <h6>Accuvally Inc.共同創辦人暨營運長</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-block">
+                <div className="input-group container row justify-content-center mx-auto">
+                  <img className="col-md-6 col-12 px-0 mb-md-0 mb-3 mr-0 mr-md-4" src="https://5xruby.tw/assets/images/testimoney/avatar/benlin-54e253f4.jpg" alt="Third slide" />
+                  <div className="col-md-6 col-12 px-md-0 px-3 text-start user-recommend">
+                    <p>「五倍紅寶石」的導師們都是業界經驗豐富的實戰高手，提供的課程及咨詢絕對能讓你大幅省去自行摸索的時間。</p>
+                    <h4>Ben Li</h4>
+                    <h6>連續創業家，自由工作者</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>         
+        </div>
+        {/*  */}
+
+
+      </div>
     </div>
   );
 }

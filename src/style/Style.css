@@ -79,6 +79,11 @@ footer{
     font-weight: 900;
 }
 
+/* text align */
+.text-start{
+    text-align: start;
+}
+
 /* md size */
 @media (min-width:576px) and (max-width:769px){
     .press-img span{
