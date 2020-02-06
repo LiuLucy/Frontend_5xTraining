@@ -1,0 +1,58 @@
+  .pointer {
+    cursor: pointer;
+  }
+  .width100 {
+    width: 100%;
+  }
+  #fp-carousel {
+      position: relative;
+      overflow: hidden;
+  }
+  #fp-carousel .item {
+      position: relative;
+      display: none;
+  }
+  #fp-carousel .item.active {
+      display: block;
+      left: 0;
+  }
+  .carousel-indicators{
+      /* position: unset !important; */
+  }
+  .carousel-indicators .active{
+    background-color: #dc3545;
+  }
+  .carousel-indicators li {
+      border-radius: 100%;
+      width: 12px !important;
+      height: 12px !important;      
+  }
+  .carousel-content{
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+  }
+  .about-5x{
+      color: #555;
+  }  
+  .class-detail span{
+      color: #999;
+      font-size: 14px;
+      font-weight: 900;
+  }
+  .class-time-bage{
+      color: #666 !important;
+      font-size: 16px;
+      background-color: #E6E6E6;
+      border-radius: 10%;      
+  }
+  .more-class button{
+    color: white;
+    border-style: none;
+    padding: 15px 50px;
+    background-color: #dc3545;
+    font-weight: 900;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  @media (min-width:320px) and (max-width:769px){}

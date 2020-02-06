@@ -1,49 +1,51 @@
-import React from 'react';
+import React,{ useEffect } from 'react';
 import logo from './assets/img/logo.png';
 import pressImg from './assets/img/press-img.png';
 import cakeresume from './assets/img/cakeresume.png';
-
 import './style/Style.css';
-
+import Home from './pages/Home/Home.js';
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header px-3">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <header className="App-header px-3  bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <a className="navbar-brand" href="https://5xruby.tw/"><img src={logo} alt="圖片" /></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           
-        <ul class="navbar-nav">
-          <li class="nav-item mx-2">
-            <a class="nav-link d-flex justify-content-center" href="https://5xruby.tw/"><i className="far fa-gem mr-2 d-flex align-items-center"></i>線上課程</a>
+        <ul className="navbar-nav">
+          <li className="nav-item mx-2">
+            <a className="nav-link d-flex justify-content-center" href="https://5xruby.tw/"><i className="far fa-gem mr-2 d-flex align-items-center"></i>線上課程</a>
           </li>          
-          <li class="nav-item mx-2">
-            <a class="nav-link d-flex justify-content-center" href="https://5xruby.tw/"><i className="far fa-compass fa-lg mr-2 d-flex align-items-center"></i>ASTRO Camp<span className="tag p-1 ml-2">報名優惠中</span></a>
+          <li className="nav-item mx-2">
+            <a className="nav-link d-flex justify-content-center" href="https://5xruby.tw/"><i className="far fa-compass fa-lg mr-2 d-flex align-items-center"></i>ASTRO Camp<span className="tag p-1 ml-2">報名優惠中</span></a>
           </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link d-flex justify-content-center" href="https://5xruby.tw/">短期課程</a>
+          <li className="nav-item mx-2">
+            <a className="nav-link d-flex justify-content-center" href="https://5xruby.tw/">短期課程</a>
           </li> 
-          <li class="nav-item mx-2">
-            <a class="nav-link d-flex justify-content-center" href="https://5xruby.tw/">專案開發</a>
+          <li className="nav-item mx-2">
+            <a className="nav-link d-flex justify-content-center" href="https://5xruby.tw/">專案開發</a>
           </li> 
-          <li class="nav-item mx-2">
-            <a class="nav-link d-flex justify-content-center" href="https://5xruby.tw/">企業代訓</a>
+          <li className="nav-item mx-2">
+            <a className="nav-link d-flex justify-content-center" href="https://5xruby.tw/">企業代訓</a>
           </li> 
-          <li class="nav-item mx-2">
-            <a class="nav-link d-flex justify-content-center" href="https://5xruby.tw/">空間租借</a>
+          <li className="nav-item mx-2">
+            <a className="nav-link d-flex justify-content-center" href="https://5xruby.tw/">空間租借</a>
           </li> 
-          <li class="nav-item mx-2">
-            <a class="nav-link d-flex justify-content-center" href="https://5xruby.tw/">最新消息</a>
+          <li className="nav-item mx-2">
+            <a className="nav-link d-flex justify-content-center" href="https://5xruby.tw/">最新消息</a>
           </li> 
         </ul>
         </div>
       </nav>
       </header>
       
-      <div className="content"></div>
+      <div className="content">
+        <Home />
+      </div>
 
       <footer className="py-5">
         <div className="container">
@@ -102,5 +104,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

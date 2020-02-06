@@ -15,7 +15,7 @@ ul li a:hover{
 
 /* content */
 .content{
-    height: 100vh;
+    /* margin-top: 68px; */
 }
 
 /* footer */
@@ -48,6 +48,36 @@ footer{
     font-size: 12px;
 }
 
+/* line */
+.line{
+    border: solid;
+    border-color: #dc3545;
+    border-bottom: 0.5px;
+    width: 76px;
+    display: flex;
+    margin-top: 15px;
+}
+
+/* block color */
+.block-dark{
+    background-color: #f7f7f7;
+}
+
+/* bage */
+.bage-danger{
+    background-color: #d90845;
+    color: white;
+}
+.bage-warning{
+    background-color: #FF8E3B;
+    color: white;
+}
+.bage{
+    font-size: 10px;
+    padding: 3px 5px; 
+    border-radius: 10%;    
+    font-weight: 900;
+}
 
 /* md size */
 @media (min-width:576px) and (max-width:769px){
