@@ -4,8 +4,12 @@ import pressImg from './assets/img/press-img.png';
 import cakeresume from './assets/img/cakeresume.png';
 import './style/Style.css';
 import Home from './pages/Home/Home.js';
+import Contacts from './pages/Contacts/Contacts.js';
+import $ from 'jquery';
 function App() {
-
+  useEffect(() => {
+    
+  });
   return (
     <div className="App">
       <header className="App-header px-3  bg-light">
@@ -44,7 +48,8 @@ function App() {
       </header>
       
       <div className="content">
-        <Home />
+        {/* <Home /> */}
+        <Contacts />
       </div>
 
       <footer className="py-5">
