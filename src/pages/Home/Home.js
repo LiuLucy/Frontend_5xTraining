@@ -390,7 +390,7 @@ function Home() {
 
         <div className="container">
           <div className="row">
-            <div className="col-md-4 col-12 ">
+            <div className="col-md-4 col-12 mb-3 mb-md-0">
               <div class="card h-100">
                 <img class="card-img-top" src="https://5xruby.tw/assets/images/showcases/space_next_door-4dfdfeb6.png" alt="Card image cap" />
                 <div class="card-body">
@@ -399,7 +399,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-4 col-12 mb-3 mb-md-0">
               <div class="card h-100">
                 <img class="card-img-top" src="https://5xruby.tw/assets/images/showcases/shopmatic_go-f7b86d46.png" alt="Card image cap" />
                 <div class="card-body">
@@ -408,7 +408,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-4 col-12 mb-3 mb-md-0">
               <div class="card h-100">
                 <img class="card-img-top" src="https://5xruby.tw/assets/images/showcases/shopmatic-92ff9dcf.jpg" alt="Card image cap" />
                 <div class="card-body">
@@ -433,10 +433,10 @@ function Home() {
             <p className="text">您可以看看<span>常見問題</span>或者直接<span>線上洽詢</span>，會有親切的客服人員回答您的問題，<br></br>也可以透過社群網站隨時關注我們的動態。</p>          
           </div>
           <div className="row justify-content-center mx-0">
-            <div className="col-1">
+            <div className="col-3 col-md-1">
               <img src="https://5xruby.tw/assets/images/index/icon/icon-fb-2f24e7a0.png"></img>
             </div>
-            <div className="col-1">
+            <div className="col-3 col-md-1">
               <img src="https://5xruby.tw/assets/images/index/icon/icon-twitter-89f8d087.png"></img>
             </div>
           </div>
